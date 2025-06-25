@@ -1,7 +1,6 @@
-// require('./xyz')
-import {calcSum} from "./sum.js"
+require('./xyz')
 
-// const {calcSum} = require('./sum');
+const {calcSum} = require('./sum');
 
 let a=2;
 let b=2;
