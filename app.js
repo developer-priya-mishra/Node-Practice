@@ -1,9 +1,8 @@
 require('./xyz')
 
-var name="XYZ";
+const {calcSum} = require('./sum');
 
 let a=2;
 let b=2;
 
-
-console.log(name);
+calcSum(a,b);
